@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Picturegram</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two&display=swap" rel="stylesheet">
+	<style type="text/css">
+		
+		body {
+			background: grey;
+		}
+
+		#content {
+			width: 550px;
+			margin: auto;
+			background: lightgrey;
+			border-radius: 5px
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 50px;
+			margin: 0px;
+			text-align: center;
+			font-family: 'Lobster Two' , cursive;
+		}
+
+		img {
+			box-sizing: border-box;
+			border: 3px solid black;
+		}
+
+		img:hover {
+			border: 3px dotted red;
+		}
+
+		#image6 {
+			filter: blur(2px);
+		}
+
+		#image2 {
+			filter: brightness(300%);
+		}
+
+		#image3 {
+			filter: contrast(250%);
+		}
+
+		#bigpic {
+			width: calc(100% - 50px);
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+		.smallpic {
+			width: calc(33.33333% - 13px);
+			margin: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="content">
+		<h1>Picturegram</h1>
+
+		<img src="https://is2-ssl.mzstatic.com/image/thumb/Podcasts/v4/6f/ae/b4/6faeb474-86d7-45e2-4464-f7627bda52c2/mza_952661457837437588.jpg/268x0w.jpg" alt="Thermal picture of triangle with royal blue background and text on the bottom" id="bigpic">
+		<img src="https://www.lti.cs.cmu.edu/sites/default/files/1_compbio_ppi.jpg" alt="DNA colored in light blue with techonological pixels and shapes" class="smallpic" id="image2">
+		<img src="https://lbrn.lsu.edu/images/gearhead-square.jpg" alt="Silloutte of a side profile of a bald person with gears for brains" class="smallpic" id="image3">
+		<img src="https://www.ce.studium.fau.eu/files/2016/05/StressFieldAroundCrack.png" alt="pixels with a thermal puddle and a red pixel stick touching it" class="smallpic">
+		<img src="https://media.badgr.io/uploads/badges/14d631ed-4e20-4e1c-a16f-599d2f872dfb.png" alt="Three computers with three spokes connecting them" class="smallpic">		
+		<img src="Tech48.jpg" alt="Production teacher hard at work wearing a plaid shirt" class="smallpic" id="image6">
+		<img src="Tech64.jpg" alt="array of walkie talkies" class="smallpic">
+		<img src="Tech67.jpg" alt="clock sticking out the side of a wall" class="smallpic">
+		<img src="Tech65.jpg" alt="blue laundry bin of thick heavy cables" class="smallpic">
+		<img src="Tech7.jpg" alt="Two mac computers and a printer in between" class="smallpic">
+	</div>
+</body>
+</html>
