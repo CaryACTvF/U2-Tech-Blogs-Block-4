@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picturegram - Tech Blog</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			background: green;
+		}
+		#content {
+			width: 550px;
+			margin: auto;
+			background: yellow;
+			border-radius: 5px;
+			padding: 20px;
+		}
+		h1 {
+			font-size: 50px;
+			margin: 0px;
+			text-align: center;
+			font-family: 'Lobster', cursive;
+		}
+		img {
+			width: 200px;
+			box-sizing: border-box;
+			border: 4px solid turquoise;
+		}
+		img:hover {
+			border: 4px solid magenta;
+			filter: drop-shadow(8px 8px 10px red);
+		}
+		#bigpic {
+			width: calc(100% - 10px);
+			filter: blur(10px);
+		}
+		#bigpic:hover {
+			filter: blur(0px);
+			filter: drop-shadow(8px 8px 10px red);
+		}
+		.smallpic {
+			width: calc(33.33333% - 13px);
+			margin: 5px
+			filter: brightness(50%);
+			filter: contrast(150%);
+		}
+		#camera {
+			filter: grayscale(90%);
+		}
+		#camera:hover {
+			filter: grayscale(0%);
+			filter: drop-shadow(8px 8px 10px red);
+		}
+		#macncheese {
+			filter: hue-rotate(90deg);
+		}
+		#macncheese:hover {
+			filter: hue-rotate(0deg);
+			filter: drop-shadow(8px 8px 10px red);
+		}
+		#hen1 {
+			filter: hue-rotate(45deg) contrast(150%) blur (1px);
+		}
+		#saw:hover {
+			filter: brightness(175%);
+			filter: drop-shadow(8px 8px 10px red);
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<h1>Picturegram</h1>
+
+		<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fifsecglobal.com%2Fwp-content%2Fuploads%2F2017%2F11%2Ffacial-recognition-biometrics-vectors-1-e1509551990917.jpeg&f=1&nofb=1" alt="Facial Recognition" id= "bigpic">
+		<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Frobots.nu%2Fimg%2Fuploads%2F2018%2F08%2F10%2FVector%252C%2520adorable%2520robot%2520from%2520Anki.jpg&f=1&nofb=1" alt="Vector Robot" class="smallpic">
+		<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fwww.smartprix.com%2Fbytes%2Fwp-content%2Fuploads%2F2018%2F03%2Foppo-r17-indisplay-fingerprint-e1534148275572.jpg%3Fresize%3D640%252C766%26ssl%3D1&f=1&nofb=1" alt="In display fingerprint scanner" class= "smallpic">
+		<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fedge.androidcommunity.com%2Fwp-content%2Fuploads%2F2019%2F03%2FSAMSUNG-Galaxy-Fold-EE-UK-2.png&f=1&nofb=1" alt="Samsung Galaxy Fold" class= "smallpic">
+		<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fblogs-images.forbes.com%2Fsamabuelsamid%2Ffiles%2F2016%2F04%2Fv2x-sq.jpg&f=1&nofb=1" alt="Lidar Street" class= "smallpic">
+		<img src="tech42.jpg" alt="Sawman" class="smallpic" id="saw">
+		<img src="tech39.jpg" alt="Henry's computer class 2.0" class="smallpic">
+		<img src="tech40.jpg" alt="Henry's computer class 1.0" class="smallpic" id="hen1">
+		<img src="tech25.jpg" alt="TVF Junior Camera" class="smallpic" id="camera">
+		<img src="tech5.jpg" alt="Macbook Pro 2008 with broken keyboard" class="smallpic" id="macncheese">
+	</div>
+</body>
+</html>

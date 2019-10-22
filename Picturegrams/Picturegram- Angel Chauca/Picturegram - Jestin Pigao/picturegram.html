@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picturegram - Tech Blog</title>
+	<link rel="shortcut icon" href="https://www.freepngimg.com/download/logo/69768-logo-computer-layout-instagram-icons-png-file-hd.png" type="image/x-icon">
+	<meta charset="utf-8">
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+		body {
+			background: purple;
+		}
+
+		#content {
+			width: 550px;
+			margin: auto;
+			background: blue;
+			border-radius: 5px;
+			border: 6px solid lightblue;
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 50px;
+			margin: 0px;
+			text-align: center;
+		}
+
+		img {
+			box-sizing: border-box;                                             
+		}
+
+		#bigpic {
+			width: calc(100% - 10px);
+			margin: 5px;
+			filter: blur(20px);
+			border: 8px solid lightblue;
+		}
+
+		.smallpic {
+			width: calc(33% - 13px);
+			margin: 5px;
+			filter: brightness(150%);
+			border: 8px solid maroon;
+		}
+
+		.largepic {
+			width: calc(10% - 20px);
+		}
+
+		nav {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			min-height: 8vh;
+			background-color: blue;
+		}
+
+		nav ul li {
+			position: relative;
+		}
+
+		nav ul li a {
+			display: block;
+			color: blue;
+			font-size: 14px;
+			padding: 22px 14px;
+			text-decoration: none;
+		}
+
+		nav ul li ul li {
+			width: 180px;
+			border-radius: 4px;
+		}
+
+		nav ul li ul li a {
+			padding: 8px 14px;
+		}
+
+		.nav-links {
+			display: flex;
+			justify-content: space-around;
+			width: 40%;
+		}
+
+		.nav-links li {
+			list-style: none;
+		}
+
+		.nav-links a {
+			color: orange;
+			text-decoration: none;
+			letter-spacing: 2px;
+			font-weight: bold;
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<a href="picturegram.html"><img src="https://www.freepngimg.com/download/logo/69768-logo-computer-layout-instagram-icons-png-file-hd.png" class="largepic"></a>
+		</div>
+			<ul class="nav-links">
+				<li>
+					<a href="picturegram.html">Picturegram</a>
+				</li>
+			</ul>
+	</nav>
+
+	<br>
+
+	<div id="content">
+		<h1>Picturegram</h1>
+
+		<img src="Image9.jpg" alt="Techpics" id="bigpic">
+		<img src="Image10.jpg" alt="Techpics" class="smallpic">
+		<img src="Image11.jpg" alt="Techpics" class="smallpic">
+		<img src="Image12.jpg" alt="Techpics" class="smallpic">
+		<img src="Image13.jpg" alt="Techpics" class="smallpic">
+		<img src="Image14.jpg" alt="Techpics" class="smallpic">
+		<img src="tech1.jpg" alt="Techpics" class="smallpic">
+		<img src="tech2.jpg" alt="Techpics" class="smallpic">
+		<img src="tech3.jpg" alt="Techpics" class="smallpic">
+		<img src="tech4.jpg" alt="Techpics" class="smallpic">
+	</div>
+	
+</body>
+</html>
